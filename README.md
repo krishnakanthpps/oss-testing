@@ -273,30 +273,6 @@ h. tester
 i. keywords, etc.
 
 
-## Under Load
-
-Contents of this repo was used to generate statistics such as this:
-
-<img alt="truperf_load" src="https://cloud.githubusercontent.com/assets/300046/9831874/f6a32c6e-591c-11e5-949b-607fcd2ead6b.png">
-
-The top edge of the blue triagle illustrates the ramp-up of 100 users all communicating with the same server.
-TODO: Make User Load axis numbers blue as well.
-
-Virtual users in the run are distributed evenly among different browsers and the JMeter client emulator.
-
-On the left side at the beginning of the run there is some variation in response time.
-
-On the right side when a large number of users are working all at once, response time increases due to several factors.
-One is the **server** makes some users wait in the queue while it processes other users.
-TODO: Chart separating server vs. network vs. client time.
-
-It is yet unknown why Firefox is more stressed than Chrome when servers are delayed
-during periods of maximum load.
-
-(And Chrome takes more memory than Firefox)
-
-
-
 <hr size=5>
 <a name="Authors">
 ## Authors </a>
